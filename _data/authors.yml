@@ -1,0 +1,80 @@
+# The primary author of this blog.
+# Must be the same as `author` in `_config.yml`.
+# Change `author1` to your shortname.
+author1:
+  name:              Moon ByoungHoon
+  email:             passion.mbh@gmail.com
+
+  # Used at the bottom of each page and at the top of the `about` layout
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:             |
+    생각은 긍정적으로, 행동은 적극적으로 임하는 개발자 문병훈 입니다.  
+    현재 SK C&C에서 재직하고 금융쪽 IT를 담당하고 있습니다.  
+    관심 언어로는 Java, Python 이 있습니다.  
+    IT기술에 관심을 가지며 도태 되지 않으려고 노력하고 있습니다.
+    
+  # This photo will be used in the about section
+  picture:
+    path:            /assets/img/me/me.jpg
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    srcset:
+      1x:            /assets/img/me/me.jpg
+      2x:            /assets/img/me/me.jpg
+
+  # Social media icons in sidebar
+  # Comment/uncommet to show/hide
+  # Rearrange to change the order in which they appear
+  social:
+    github:          byounghoonmoon@github.io
+    email:           passion.mbh@gmail.com
+    # rss:             https://<url>/feed.xml
+    # facebook:        <username>
+    # google:          <number>
+    # vk:              <username>
+    # youtube:         <string_string_string>
+    # vimeo:           <username>
+    # vine:            <username>
+    # spotify:         <user>/<number>
+    # soundcloud:      <username>
+    # lastfm:          <username>
+    # instagram:       <username>
+    # flickr:          <string@string>
+    # 500px:           <username>
+    # dribbble:        <username>
+    # behance:         <username>
+    # deviantart:      <username>
+    # ello:            <username>
+    # twitch:          <username>
+    # steam:           <number>
+    # reddit:          <username>
+    # tumblr:          <username>
+    # pinterest:       <username>
+    # foursquare:      <number>
+    # yelp:            <string>
+    # stackoverflow:   <number/username>
+    # npm:             <username>
+    # hackernews:      <username>
+    # trello:          <firstnamelastname>
+    # linkedin:        <firstname-lastname-string>
+    # xing:            <firstname_lastname_counter>
+    # blogger:         <number>
+    # delicious:       <username>
+    # stumbleupon:     <username>
+    # paypal:          <username>
+    # download:        <url>
+    # keybase          <username>
+
+# Another author (optional)
+author2:
+  name:              <firtname> <lastname>
+  email:             <mail@domain.tld>
+  about:             |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+    Open `_data/authors.yml` to edit this text.
+
+  picture:           https://placehold.it/128x128
+  twitter:           <username>
+  github:            <username>
