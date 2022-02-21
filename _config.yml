@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://github.com/byounghoonmoon/byounghoonmoon.github.io.git
+url:                   https://github.com/byounghoonmoon/byounghoonmoon.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -20,7 +20,7 @@ url:                   https://github.com/byounghoonmoon/byounghoonmoon.github.i
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 문병훈의 블로그
+title:                 작심삼일이 아니길 바라는 블로그
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -36,7 +36,7 @@ keywords:              [금융IT, spring, python]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/me/me.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -48,8 +48,10 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
+  - title:             Example1
+    url:               /example1/
+  - title:             Example2
+    url:               /example2/
   - title:             Documentation
     url:               /docs/
   - title:             About
