@@ -52,8 +52,6 @@ menu:
     url:               /example1/
   - title:             Example2
     url:               /example2/
-  - title:             Documentation
-    url:               /docs/
   - title:             About
     url:               /about/
     
@@ -430,3 +428,12 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
+
+tipue_search:
+  include:
+    pages: false
+    collections: []
+  exclude:
+    files: []
+    categories: []
+    tags: []
