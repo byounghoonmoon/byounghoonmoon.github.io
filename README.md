@@ -18,3 +18,8 @@ A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.
 [^1]: Requires Bundler. Install with `gem install bundler`.
 
 [download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
+
+---
+## 정리
+- footer 관련
+    - include 안의 post.html 내용 post.title 에서의 post는 Post.md의 layout 기준이다.
