@@ -137,3 +137,8 @@
 .submenu.menu-wrapper.hide{
   display: none;
 }
+
+// 조회수 링크 제거
+a::after {
+  display: none;
+}

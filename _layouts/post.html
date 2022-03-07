@@ -4,7 +4,15 @@ layout: base
 
 {% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
 
+
 {% include components/page-button.html %}
+
+<!-- 게시물별 카운트 -->
+<div style="text-align: center;">
+    <a href="https://hits.seeyoufarm.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}" target="_blank">
+        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url={{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}&count_bg=%2373D368&title_bg=%23694196&icon=wolfram.svg&icon_color=%23E6FF00&title=hits&edge_flat=false" />
+    </a>
+</div>
 
 {% include_cached components/about.html author=page.author %}
 {% include components/related-posts.html %}
