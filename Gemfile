@@ -41,6 +41,7 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-relative-links"
   gem "jekyll-seo-tag"
+  # sitemap 있을경우 deploy이 자동으로 sitemap.xml 갱신
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache"
