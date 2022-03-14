@@ -48,12 +48,16 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             About
+    url:               /about/
+  - title:             Posts
+    url:               /posts/
+  - title:             Java
+    url:               /java/
   - title:             Example1
     url:               /example1/
   - title:             Example2
     url:               /example2/
-  - title:             About
-    url:               /about/
     
   - title:			Subcat
     url:			/subcat/
