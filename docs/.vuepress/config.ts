@@ -1,0 +1,159 @@
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
+import { markdownChartPlugin } from '@vuepress/plugin-markdown-chart'
+
+export default defineUserConfig({
+  lang: 'ko-KR', // 한국어로 설정
+  title: '나의 개발 이력 및 학습 노트', // 브라우저 탭에 표시될 사이트 제목
+  description: '경력, 포트폴리오, 그리고 꾸준한 학습 기록', // 사이트 설명 (SEO 목적)
+  
+  // GitHub Pages 배포를 위한 base 설정
+  // 리포지토리 이름이 'vuepress-starter'인 경우: '/vuepress-starter/'
+  // 리포지토리 이름이 'your-username.github.io'인 경우: '/'
+  base: '/vuepress-starter/',
+
+  // Vite를 번들러로 사용
+  bundler: viteBundler(),
+
+  // 마크다운 설정 (기본 설정 사용)
+
+  // 기본 테마 사용 및 설정
+  theme: defaultTheme({
+    // 로고 설정 (docs/.vuepress/public/images/logo.png 경로에 파일이 있어야 함)
+    // logo: '/images/logo.png',
+
+    // 상단 네비게이션 바 설정
+    navbar: [
+      {
+        text: '홈',
+        link: '/',
+      },
+      {
+        text: '경력',
+        link: '/career/',
+      },
+      {
+        text: '포트폴리오',
+        link: '/portfolio/',
+      },
+      {
+        text: '학습 노트',
+        link: '/notes/',
+      }
+    ],
+
+    // 사이드바 설정 (자동 생성)
+    sidebar: {
+      '/career/': [
+        {
+          text: '경력 사항',
+          children: ['/career/README.md'], // career 폴더의 README.md를 링크
+        },
+      ],
+      '/portfolio/': [
+        {
+          text: '나의 포트폴리오',
+          children: [
+            '/portfolio/my-project-1.md', // 실제 파일 이름에 맞게 수정
+          ],
+        },
+      ],
+      '/notes/': [
+        {
+          text: '학습 노트 개요',
+          children: ['/notes/README.md'],
+        },
+        {
+          text: '🏗️ 아키텍처',
+          collapsible: true,
+          children: [
+            '/notes/architecture/README.md',
+          ],
+        },
+        {
+          text: '🤖 AI',
+          collapsible: true,
+          children: [
+            '/notes/ai/README.md',
+          ],
+        },
+        {
+          text: '🍃 Spring',
+          collapsible: true,
+          children: [
+            '/notes/spring/README.md',
+          ],
+        },
+        {
+          text: '⚡ Svelte',
+          collapsible: true,
+          children: [
+            '/notes/svelte/README.md',
+          ],
+        },
+        {
+          text: '🛠️ Tools',
+          collapsible: true,
+          children: [
+            '/notes/tools/README.md',
+          ],
+        },
+        {
+          text: '🏗️ 인프라',
+          collapsible: true,
+          children: [
+            '/notes/infra/README.md',
+          ],
+        },
+        {
+          text: '🔐 보안 & 인증',
+          collapsible: true,
+          children: [
+            '/notes/security/README.md',
+          ],
+        },
+        {
+          text: '기존 노트',
+          collapsible: true,
+          children: [
+            '/notes/vue-component-lifecycle.md'
+          ],
+        },
+      ],
+    },
+    // 언어 토글 활성화 (다국어 지원 시)
+    // toggleColorMode: true,
+
+    // Git 리포지토리 정보 (페이지 하단에 "이 페이지 수정 제안" 링크 생성)
+    repo: 'https://github.com/byounghoonmoon/vuepress-starter', // 자신의 깃헙 레포지토리 주소
+    docsBranch: 'main', // 문서가 있는 브랜치
+    docsDir: 'docs', // 문서 폴더 (기본값)
+
+    // 마지막 업데이트 타임스탬프 표시
+    lastUpdated: true,
+    lastUpdatedText: '최근 업데이트', // 'Last Updated' 텍스트 변경
+    contributors: true, // 기여자 표시 여부
+    contributorsText: '기여자', // 'Contributors' 텍스트 변경
+  }),
+
+  // 플러그인 설정
+  plugins: [
+    // Markdown 확장 기능
+    mdEnhancePlugin({
+      // 코드 데모 지원
+      demo: true,
+    }),
+    // Mermaid, Chart, Flowchart 지원
+    markdownChartPlugin({
+      // 모든 차트 기능 활성화
+      mermaid: true,
+      chartjs: true,
+      flowchart: true,
+    }),
+    // 추가 플러그인들
+    // '@vuepress/plugin-search',
+    // '@vuepress/plugin-google-analytics', { id: 'G-XXXXX' }
+  ],
+})
