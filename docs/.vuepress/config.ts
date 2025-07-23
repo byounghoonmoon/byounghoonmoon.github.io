@@ -62,10 +62,6 @@ export default defineUserConfig({
       ],
       '/notes/': [
         {
-          text: '학습 노트 개요',
-          children: ['/notes/README.md'],
-        },
-        {
           text: '🏗️ 아키텍처',
           collapsible: true,
           children: [
