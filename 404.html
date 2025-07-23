@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>나의 개발 이력 및 학습 노트</title><meta name="description" content="경력, 포트폴리오, 그리고 꾸준한 학습 기록">
+    <link rel="preload" href="/vuepress-starter/assets/style-D8AMoGMg.css" as="style"><link rel="stylesheet" href="/vuepress-starter/assets/style-D8AMoGMg.css">
+    <link rel="modulepreload" href="/vuepress-starter/assets/app-Bo0Dj4y2.js"><link rel="modulepreload" href="/vuepress-starter/assets/404.html-8sTj8_p9.js">
+    <link rel="prefetch" href="/vuepress-starter/assets/index.html-BrlIrQIZ.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/get-started.html-9ath1DUk.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/index.html-CMI6CFb3.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/index.html-fkvJVJkB.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/vue-component-lifecycle.html-BIvE1w-Q.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/index.html-xJOOhAov.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/my-project-1.html-AkP2865s.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/index.html-ZEdOiuyx.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/index.html-Dr4nor3E.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/index.html-j-7AxEvA.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/index.html-C6Gjp5zl.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/index.html-D7yskbTQ.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/index.html-B4X8ZRVC.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/index.html-BTva2cdq.js" as="script"><link rel="prefetch" href="/vuepress-starter/assets/mermaid.esm.min-C083LhUo.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-87dfda33><main class="page" data-v-87dfda33><div vp-content data-v-87dfda33><h1 data-v-87dfda33>404</h1><blockquote data-v-87dfda33>There&#39;s nothing here.</blockquote><a class="route-link" href="/vuepress-starter/" data-v-87dfda33>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/vuepress-starter/assets/app-Bo0Dj4y2.js" defer></script>
+  </body>
+</html>
