@@ -12,7 +12,7 @@ export default defineUserConfig({
   // GitHub Pages 배포를 위한 base 설정
   // 리포지토리 이름이 'vuepress-starter'인 경우: '/vuepress-starter/'
   // 리포지토리 이름이 'your-username.github.io'인 경우: '/'
-  base: '/vuepress-starter/',
+  base: '/',
 
   // Vite를 번들러로 사용
   bundler: viteBundler(),
