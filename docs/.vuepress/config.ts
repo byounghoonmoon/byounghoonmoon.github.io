@@ -73,24 +73,10 @@ export default defineUserConfig({
           ],
         },
         {
-          text: '🤖 AI',
-          collapsible: true,
-          children: [
-            '/notes/ai/README.md',
-          ],
-        },
-        {
           text: '🍃 Spring',
           collapsible: true,
           children: [
             '/notes/spring/README.md',
-          ],
-        },
-        {
-          text: '⚡ Svelte',
-          collapsible: true,
-          children: [
-            '/notes/svelte/README.md',
           ],
         },
         {
@@ -108,19 +94,12 @@ export default defineUserConfig({
           ],
         },
         {
-          text: '🔐 보안 & 인증',
+          text: '🤖 AI',
           collapsible: true,
           children: [
-            '/notes/security/README.md',
+            '/notes/ai/README.md',
           ],
-        },
-        {
-          text: '기존 노트',
-          collapsible: true,
-          children: [
-            '/notes/vue-component-lifecycle.md'
-          ],
-        },
+        }
       ],
     },
     // 언어 토글 활성화 (다국어 지원 시)

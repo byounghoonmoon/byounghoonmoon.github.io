@@ -24,38 +24,6 @@
 - [모델 배포 전략](./model-deployment.md)
 - [MLOps 구축하기](./mlops.md)
 
-## AI 발전 타임라인
-
-```mermaid
-timeline
-    title AI 발전사
-    1950s : 튜링 테스트
-          : 최초 AI 개념 등장
-    1980s : 전문가 시스템
-          : 규칙 기반 AI
-    1990s : 머신러닝 붐
-          : SVM, 의사결정트리
-    2000s : 빅데이터 시대
-          : 랜덤포레스트, 앙상블
-    2010s : 딥러닝 혁명
-          : CNN, RNN, LSTM
-    2020s : Transformer 시대
-          : GPT, BERT, ChatGPT
-```
-
-## 주요 AI 모델 비교
-
-| 모델 타입 | 특징 | 주요 용도 | 예시 |
-|----------|------|-----------|------|
-| CNN | 이미지 패턴 인식 | 컴퓨터 비전 | ResNet, VGG |
-| RNN | 순차 데이터 처리 | 자연어 처리 | LSTM, GRU |
-| Transformer | 어텐션 메커니즘 | 언어 모델 | GPT, BERT |
-| GAN | 생성 모델 | 이미지 생성 | StyleGAN, DCGAN |
-
-::: warning 주의사항
-AI 모델 사용 시 편향성과 윤리적 고려사항을 항상 염두에 두어야 합니다.
-:::
-
 ---
 
 > AI는 도구입니다. 중요한 것은 이를 어떻게 활용하느냐입니다.
