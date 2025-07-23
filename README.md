@@ -40,7 +40,7 @@ npm run docs:build
    - 배포 상태는 Actions 탭에서 확인 가능
 
 ### 수동 배포
-GitHub Actions 탭에서 "Deploy VuePress site to Pages" 워크플로우를 수동으로 실행할 수 있습니다.
+GitHub Actions 탭에서 "Build and Deploy VuePress Site" 워크플로우를 수동으로 실행할 수 있습니다.
 
 ## 📁 프로젝트 구조
 
@@ -55,7 +55,7 @@ vuepress-starter/
 │   └── README.md              # 메인 페이지
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml         # GitHub Actions 배포 워크플로우
+│       └── build-and-deploy.yml  # GitHub Actions 빌드 및 배포 워크플로우
 └── package.json
 ```
 
