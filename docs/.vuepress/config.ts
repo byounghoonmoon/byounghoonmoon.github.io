@@ -2,7 +2,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
-import { markdownChartPlugin } from '@vuepress/plugin-markdown-chart'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   lang: 'ko-KR', // 한국어로 설정
@@ -125,14 +125,20 @@ export default defineUserConfig({
       demo: true,
     }),
     // Mermaid, Chart, Flowchart 지원
-    markdownChartPlugin({
-      // 모든 차트 기능 활성화
-      mermaid: true,
-      chartjs: true,
-      flowchart: true,
+    // markdownChartPlugin({
+    //   mermaid: true,
+    //   chartjs: true,
+    //   flowchart: true,
+    // }),
+    // 검색 플러그인 추가
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: '검색',
+        },
+      },
     }),
     // 추가 플러그인들
-    // '@vuepress/plugin-search',
     // '@vuepress/plugin-google-analytics', { id: 'G-XXXXX' }
   ],
 })
