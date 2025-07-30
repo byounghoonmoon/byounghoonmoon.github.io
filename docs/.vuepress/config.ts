@@ -62,45 +62,63 @@ export default defineUserConfig({
       ],
       '/notes/': [
         {
-          text: '🏗️ 아키텍처',
-          collapsible: true,
-          children: [
-            '/notes/architecture/README.md',
-          ],
-        },
-        {
           text: '🧑‍💻 알고리즘',
           collapsible: true,
           children: [
-            '/notes/algorithm/README.md',
-          ],
-        },
-        {
-          text: '🍃 Spring',
-          collapsible: true,
-          children: [
-            '/notes/spring/README.md',
-          ],
-        },
-        {
-          text: '🛠️ Tools',
-          collapsible: true,
-          children: [
-            '/notes/tools/README.md',
-          ],
-        },
-        {
-          text: '🏗️ 인프라',
-          collapsible: true,
-          children: [
-            '/notes/infra/README.md',
+            '/notes/algorithm/dfs.md',
+            '/notes/algorithm/bfs.md',
           ],
         },
         {
           text: '🤖 AI',
           collapsible: true,
           children: [
-            '/notes/ai/README.md',
+            // '/notes/ai/ml-dl-ai.md',
+            // '/notes/ai/tensorflow-basics.md',
+            // '/notes/ai/understanding-gpt.md',
+            // '/notes/ai/prompt-engineering.md',
+            // '/notes/ai/ai-dev-tools.md',
+          ],
+        },
+        {
+          text: '🏗️ 아키텍처',
+          collapsible: true,
+          children: [
+            // '/notes/architecture/metlife-msa-transformation.md',
+            // '/notes/architecture/multi-auth-strategy-pattern.md',
+            // '/notes/architecture/high-traffic-architecture.md',
+            // '/notes/architecture/cicd-pipeline-architecture.md',
+          ],
+        },
+        {
+          text: '🍃 Spring',
+          collapsible: true,
+          children: [
+            // '/notes/spring/ioc-di-production.md',
+            // '/notes/spring/spring-boot-template.md',
+            // '/notes/spring/financial-msa-architecture.md',
+            // '/notes/spring/multi-auth-system.md',
+            // '/notes/spring/jpa-performance-tuning.md',
+          ],
+        },
+        {
+          text: '☁️ 인프라',
+          collapsible: true,
+          children: [
+            // '/notes/infra/aws-services.md',
+            // '/notes/infra/docker-basics.md',
+            // '/notes/infra/kubernetes-operations.md',
+            // '/notes/infra/cicd-pipeline-setup.md',
+          ],
+        },
+        {
+          text: '🛠️ Tools',
+          collapsible: true,
+          children: [
+            // '/notes/tools/ide-setup-plugins.md',
+            // '/notes/tools/git-workflow.md',
+            // '/notes/tools/build-tools.md',
+            // '/notes/tools/code-quality-tools.md',
           ],
         }
       ],

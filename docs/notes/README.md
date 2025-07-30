@@ -4,35 +4,12 @@
 
 ## 영역별 분류
 
-### 🏗️ [아키텍처](./architecture/)
-- 시스템 설계 패턴
-- 마이크로서비스 아키텍처
-- 클린 아키텍처
-- 이벤트 드리븐 아키텍처
-
-### 🤖 [AI](./ai/)
-- LLM 활용
-- AI 도구 활용법
-- 
 ### 🧑‍💻 [알고리즘](./algorithm/)
-- 그래프 연산
-
+### 🤖 [AI](./ai/)
+### 🏗️ [아키텍처](./architecture/)
 ### 🍃 [Spring](./spring/)
-- Spring Framework
-- Spring Boot
-- Spring Security
-- Spring Data JPA
-
+### ☁️ [인프라](./infra/)
 ### 🛠️ [Tools](./tools/)
-- 개발 도구
-- IDE 설정
-
-### 🏗️ [인프라](./infra/)
-- Docker & Kubernetes
-- Git 워크플로우
-- AWS 서비스
-- CI/CD 파이프라인
-- 모니터링
 
 ---
 
