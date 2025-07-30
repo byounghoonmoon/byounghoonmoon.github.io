@@ -69,6 +69,13 @@ export default defineUserConfig({
           ],
         },
         {
+          text: '🧑‍💻 알고리즘',
+          collapsible: true,
+          children: [
+            '/notes/algorithm/README.md',
+          ],
+        },
+        {
           text: '🍃 Spring',
           collapsible: true,
           children: [

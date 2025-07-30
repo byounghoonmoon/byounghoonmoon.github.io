@@ -13,6 +13,9 @@
 ### 🤖 [AI](./ai/)
 - LLM 활용
 - AI 도구 활용법
+- 
+### 🧑‍💻 [알고리즘](./algorithm/)
+- 그래프 연산
 
 ### 🍃 [Spring](./spring/)
 - Spring Framework
@@ -20,11 +23,9 @@
 - Spring Security
 - Spring Data JPA
 
-
 ### 🛠️ [Tools](./tools/)
 - 개발 도구
 - IDE 설정
-
 
 ### 🏗️ [인프라](./infra/)
 - Docker & Kubernetes
