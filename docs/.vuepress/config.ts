@@ -56,7 +56,7 @@ export default defineUserConfig({
         {
           text: '나의 포트폴리오',
           children: [
-            '/portfolio/my-project-1.md', // 실제 파일 이름에 맞게 수정
+            '/portfolio/checkout-doctor.md', // 실제 파일 이름에 맞게 수정
           ],
         },
       ],
