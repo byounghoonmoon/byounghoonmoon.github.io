@@ -70,6 +70,13 @@ export default defineUserConfig({
           ],
         },
         {
+          text: '🗄️ Database',
+          collapsible: true,
+          children: [
+            '/notes/database/isolation_level.md',
+          ],
+        },
+        {
           text: '🤖 AI',
           collapsible: true,
           children: [
