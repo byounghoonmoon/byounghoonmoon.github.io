@@ -122,10 +122,7 @@ export default defineUserConfig({
           text: '🛠️ Tools',
           collapsible: true,
           children: [
-            // '/notes/tools/ide-setup-plugins.md',
-            // '/notes/tools/git-workflow.md',
-            // '/notes/tools/build-tools.md',
-            // '/notes/tools/code-quality-tools.md',
+            '/notes/tools/git_ssh.md',
           ],
         }
       ],
